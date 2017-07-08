@@ -17,12 +17,12 @@ article2{
 }
 
 article3{
-  background color
-  font family
-  font size
-  font color
-  line height
-  padding value
+  background-color: rgb(25, 238, 200);
+  font-family:cursive;
+  font-size: 18px;
+  color:rgb(222, 222, 222);
+  line-height: 1.2em;
+  padding: 20px;
 }
 
 article4{
