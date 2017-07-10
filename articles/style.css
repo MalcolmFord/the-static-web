@@ -1,50 +1,68 @@
+body {
+  background-color: grey;
+}
 #article1{
+  padding: none;
+
+  color: rgb(238, 246, 230);
+  border: blue solid 1px;
+  border-radius: 24px;
+
   background-color:rgb(85, 199, 31);
+
   font-family: times-new-roman;
   font-size: 18px;
-  color: rgb(238, 246, 230);
   line-height: 1.2em;
-  padding: none;
-  border-radius: 24px;
-  border: blue solid 1px;
 }
 #article2{
-  background-color:rgb(162, 80, 66);
+  padding: 10px;
+
+  color: rgb(121, 185, 57);
+  border: red solid 2px;
+  border-radius: 40px;
+
+  background-color:rgb(139, 40, 23);
+
   font-family: times-new-roman;
-  font-size: 18px;
-  color: rgb(238, 246, 230);
-  line-height: 1.2em;
-  padding: none;
-  border-radius: 24px;
-  border: blue solid 1px;
+  font-size: 28px;
+  line-height: 1em;
 }
 #article3{
-  background-color: rgb(25, 238, 200);
-  font-family:cursive;
-  font-size: 18px;
-  color:rgb(222, 222, 222);
-  line-height: 1.2em;
   padding: 20px;
-  border-radius: 24px;
-  border: blue solid 1px;
+
+  color:rgb(222, 222, 222);
+  border: pink solid 3px;
+  border-radius: 29px;
+
+  background-color: rgb(43, 98, 88);
+
+  font-family:cursive;
+  font-size: 10px;
+  line-height: 1.4em;
 }
 #article4{
-  background-color:rgb(85, 199, 31);
+  padding: 30px;
+
+  color: rgb(113, 193, 33);
+  border: brown solid 1px;
+  border-radius: 50px;
+
+  background-color:rgb(19, 48, 111);
+
   font-family: times-new-roman;
-  font-size: 18px;
-  color: rgb(238, 246, 230);
-  line-height: 1.2em;
-  padding: none;
-  border-radius: 24px;
-  border: blue solid 1px;
+  font-size: 30px;
+  line-height: 1.5em;
 }
 #article5{
+  padding: 40px;
+
+  color: rgb(23, 153, 114);
+  border: green solid 1px;
+  border-radius: 35px;
+
   background-color:rgb(85, 199, 31);
+
   font-family: times-new-roman;
-  font-size: 18px;
-  color: rgb(238, 246, 230);
-  line-height: 1.2em;
-  padding: none;
-  border-radius: 24px;
-  border: blue solid 1px;
+  font-size: 12px;
+  line-height: .5em;
 }
