@@ -8,3 +8,42 @@ header {
   border: solid black 1px;
   display: flex;
 }
+ #flexHolder {
+   display: flex;
+ }
+ #flexHolder li {
+   width: 50px;
+   list-style-type: none;
+   flex-direction: column-reverse;
+ }
+#flexHolder li a {
+  text-decoration: none;
+}
+.disabled {
+  color: grey;
+}
+a.disabled {
+  color: purple;
+}
+.active {
+  color: yellow;
+}
+#redText {
+  color: red;
+}
+#blueText {
+  color: blue;
+}
+#siblingRed {
+  background-color: red;
+}
+#siblingBlue {
+  background-color: blue;
+}
+.grandparent h4{
+  border: 1px solid orange;
+  border-radius: 40px;
+}
+input {
+  line-height: 25px;
+}
