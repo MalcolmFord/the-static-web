@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+  display: inline;
+}
+span {
+  border: 1px solid black;
+  margin: 25px;
+}
+article:nth-child(even){
+  border: 1px solid black;
+}
