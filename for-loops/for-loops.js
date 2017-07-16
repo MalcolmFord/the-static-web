@@ -24,4 +24,79 @@ for (i = 0; i < AmericianP.length; i++){
 
   console.log("President #" + parseInt(i+1) + " was " + AmericianP[i]);
 
+   }
+
+
+  // //this is an array that
+  // let presidentsss = ["#1 Georgie", "#2 Tommy", "#3 Bertha"];
+  // for (let i = 0; i < presidentsss.length; i++) {
+  //     console.log("President", presidentsss[i]);
+  // }
+  //
+  // let president = ["#1 Georgie", "#2 Tommy", "#3 Bertha"];
+  // president.forEach(function(pres, index) {
+  //     console.log("President", pres, index+1);
+  // });
+  //
+  //
+  //
+  //
+  //
+  // let presidents = [];
+  //     presidents.push({
+  //         number: "#1",
+  //         name: "George Washington",
+  //         dates: "(1789-1797)"
+  //     });
+  //     presidents.push({
+  //         number: "#2",
+  //         name: "John Adams",
+  //         dates: " (1797-1801)"
+  //     });
+  //     presidents.push({
+  //         number: "#3",
+  //         name: "Thomas Jefferson",
+  //         dates: "(1808-1809)"
+  //     });
+  //     presidents.push({
+  //         number: "#4",
+  //         name: "James Madison",
+  //         dates: "(1809-1817)"
+  //     });
+  //     presidents.push({
+  //         number: "#5",
+  //         name: "James Monroe",
+  //         dates: "(1817-1825)"
+  //     });
+  //     presidents.push({
+  //         number: "#6",
+  //         name: "John Quincy Adams",
+  //         dates: "(1825-1829)"
+  //     });
+  //
+  //
+  // presidents.forEach(function(item, index){
+  //     console.log("President", `${item.number} ${index+1}: ${item.name} was president ${item.dates}`);
+  //
+  // });
+
+  // Object iteration:
+
+  var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
 }
+
+
+   Object.keys(antSpecies).forEach(function(key) {
+        console.log(key);
+    });
