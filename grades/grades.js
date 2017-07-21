@@ -17,8 +17,8 @@ for (i=0; i< scores.length; i++){
     A = A+1;
   }
 }
-let minNum = Math.min(82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87);
-let maxNum = Math.max(82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87);
+let minNum = Math.min(...scores);
+let maxNum = Math.max(...scores);
 console.log("This works");
 console.log("There are "+A.length+ " A's");
 console.log("There are "+B.length+ " B's");
